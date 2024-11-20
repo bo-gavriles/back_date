@@ -7,9 +7,9 @@ description: "Yore dating assistant in Russian."
 # BackDate – Знакомства проще, чем обычно
 
 ## 🖤 Языки
-- [Русский](ru.html) (активный)
-- [English](en.html)
-- [Español](es.html)
+- [Русский](ru.md) (активный)
+- [English](en.md)
+- [Español](es.md)
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Welcome to Back Date 🖤"
+title: "Back Date – Es"
+description: "Yore dating assistant."
 ---
 
 # BackDate – Las citas más simples

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Welcome to Back Date 🖤"
+---
+
 # BackDate – Dating made simpler
 
 With BackDate, you save the time spent on endless swiping and chatting. You give us your schedule, and we arrange the dates for you. 😉🖤

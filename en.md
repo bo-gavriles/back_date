@@ -8,8 +8,6 @@ description: "Yore dating assistant."
 
 With BackDate, you save the time spent on endless swiping and chatting. You give us your schedule, and we arrange the dates for you. 😉🖤
 
-[Learn more 💀](#how-it-works)
-
 ---
 
 ## How does it work? 🖤🕷️
@@ -50,7 +48,3 @@ BackDate - we value your time! ⏰🖤
 
 © 2024 BackDate. All rights reserved. 🖤⚰️
 
-- [How does it work? 💀](#how-it-works)
-- [Why us? 👻](#why-backdate-🖤👀)
-- [Pricing 💵](#pricing-🖤💰)
-- [Sign up 🖤](signup.html)

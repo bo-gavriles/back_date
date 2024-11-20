@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Back Date – Russian"
-description: "Yore dating assistant in Russian."
+title: "Back Date – Ru"
+description: "Yore dating assistant."
 ---
 
 # BackDate – Знакомства проще, чем обычно

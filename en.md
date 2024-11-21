@@ -61,7 +61,7 @@ With BlackDates, you’re buying back the time you’d spend on endless chats an
 
 ## 🖤👄 Ready to give it a try?*
 
-[Sign Up 🖤](signup.html)
+[Sign Up via Google Form🖤](signup.html)
 
 
 ### BlackDates – we value your privacy, advance payments, and time! ⏰🖤  

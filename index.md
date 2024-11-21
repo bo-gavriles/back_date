@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome to Back Date 🖤"
+title: "Welcome to Black Dates 🖤"
 ---
 
 👅
@@ -9,5 +9,5 @@ title: "Welcome to Back Date 🖤"
 - [Russian 🇷🇺](ru.md)
 - [English 🇺🇸](en.md)
 
-© 2024 BackDate. All rights reserved. 🖤⚰️
+© 2024 BlackDates. All rights reserved. 🖤
 

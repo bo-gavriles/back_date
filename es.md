@@ -61,7 +61,7 @@ Usando BlackDates, compras el tiempo que habrías gastado en interminables mensa
 
 ## 👄 ¿Listo para probar?*
 
-[Registrarse 🖤](signup.html)
+# [Registrarse a través de un formulario de Google🖤](signup.html)
 
 ### BlackDates - valoramos tu privacidad, prepago y tiempo ⏰🖤  
 *trabajamos solo con prepago

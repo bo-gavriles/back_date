@@ -7,7 +7,7 @@ description: "Citas más simples de lo habitual."
 ## 🖤 BlackDates – Secretario para organizar citas - Tú compras tu tiempo
 
 Usando BlackDates, compras el tiempo que habrías gastado en interminables mensajes y swipes. De tu parte: un calendario y un formulario. De nuestra parte: la organización de Dates 😉
-[Registro 🖤](signup.html)
+[Lo sé todo - Registro 🖤](signup.html)
 ---
 
 ### Personas reales, citas reales y mínimo esfuerzo de tu parte.

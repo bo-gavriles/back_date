@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Black Date – Ru"
+title: "Black Dates – Ru"
 description: "Знакомства проще, чем обычно."
 ---
 

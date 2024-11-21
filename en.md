@@ -6,7 +6,7 @@ description: "Dating made simpler than ever."
 
 ## 🖤 BlackDates – A Secretary for Scheduling Dates – You’re Buying Your Time
 
-With BlackDates, you’re buying back the time you’d spend on endless chats and swipes. You provide your calendar and preferences, and we handle the organization of your Dates 😉 [Sign Up 🖤](signup.html)
+With BlackDates, you’re buying back the time you’d spend on endless chats and swipes. You provide your calendar and preferences, and we handle the organization of your Dates 😉 [I know everything - Sign Up 🖤](signup.html)
 
 ---
 

@@ -1,50 +1,70 @@
 ---
 layout: default
-title: "Back Date – En"
-description: "Yore dating assistant."
+title: "Black Dates – EN"
+description: "Dating made simpler than ever."
 ---
 
-# BackDate – Dating made simpler
+## 🖤 BlackDates – A Secretary for Scheduling Dates – You’re Buying Your Time
 
-With BackDate, you save the time spent on endless swiping and chatting. You give us your schedule, and we arrange the dates for you. 😉🖤
-
----
-
-## How does it work? 🖤🕷️
-
-1. **Calendar. 🗓️** Choose your available days for meetings.
-2. **Profile. 📝** Share your interests and preferences.
-3. **Sync. 🔄** Connect your favorite dating apps.
-4. **Magic. ✨🖤** We’ll arrange the best dates for you!
+With BlackDates, you’re buying back the time you’d spend on endless chats and swipes. You provide your calendar and preferences, and we handle the organization of your Dates 😉 [Sign Up 🖤](signup.html)
 
 ---
 
-## Pricing 🖤💰
+### Real people, genuine connections, and minimal effort on your part.
 
-Simple: one date or 10 declines of potential matches for just **25 USDT**. Payment in cryptocurrency only 😉💀.  
-Fast, convenient, and no questions asked! 👻🖤
+**💘 Looking for a partner?**  
+- We’ll set up a Date with someone matching your preferences.
 
----
+**👦👧 A guy looking for a girl? A girl looking for a guy?**  
+- No worries. And you **can cancel** the Date if you don’t like their photo.
 
-## Why BackDate? 🖤👀
+**🏳️‍🌈 A girl looking for a girl? A guy looking for a guy?**  
+- We’ll **quickly arrange** a Date in your city.
 
-### Convenience 🖤🤝
-Plan meetings without wasting time on long chats. ⏳
+**💑 A couple looking for another couple or something new?**  
+- **Read responses** from potential Dates to important questions we’ll **make sure** to ask in advance.
 
-### Personalization 🖤🎯
-We consider your interests and preferences. 💌
+**🎲🍻 Looking for a buddy for beer or DnD?**  
+- **Custom search?** A dedicated manager will handle it for you!
 
-### Privacy 🔒🖤
-Your data is secure. That goes without saying. 🕵️‍♂️
-
----
-
-## Ready to try? 🖤👄
-
-BackDate - we value your time! ⏰🖤  
-[Sign up ❤️‍🔥](signup.html)
+**🎮☕ A running partner? A coffee buddy? Or a teammate for late-night gaming?**  
+- We understand how **important it is to find the right person** for your hobbies!
 
 ---
 
-© 2024 BackDate. All rights reserved. 🖤⚰️
+### **🤖 Technology + Humanity**
 
+**BlackDates** is a next-generation service! You’ll stay in touch with a personal manager. If you want, we can use **AI** to respond on your behalf, tailored specifically to your personality. And we won’t stop at dating apps — forums, websites, and social media are also fair game to find the perfect Date for you 🖤✨
+
+---
+
+### **How does BlackDates work?**
+
+1. **Schedule 🗓️**: Share the days you’re free for new connections.  
+2. **Profile 📝**: Fill out your preferences and tell us about your interests.  
+3. **Sync 🔄**: Connect your favorite apps or just trust us completely.  
+4. **Magic ✨**: We’ll find your match, and you simply enjoy the Date!
+
+---
+
+### 💰 A real Date or 10 rejections from uninteresting people for **25 USDT**
+
+---
+
+### 🚀 Payment **only in cryptocurrency** – fast, convenient, and secure
+
+---
+
+### **It’s time for change!**
+
+**BlackDates** isn’t just a dating service. It’s **technology, emotions, and humanity.** No more wasting time on unsuitable people – find what you need without hassle or stress!
+
+## 🖤👄 Ready to give it a try?*
+
+[Sign Up 🖤](signup.html)
+
+
+### BlackDates – we value your privacy, advance payments, and time! ⏰🖤  
+*service works on a prepaid basis only
+
+© 2024 BlackDates. All rights reserved. 🖤

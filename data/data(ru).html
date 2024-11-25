@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник Backdates.wtf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        fieldset {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 80px;
+        }
+        button {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003f8a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Опросник для Backdates.wtf</h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>1. Основная информация</legend>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Как вы хотите, чтобы к вам обращались?" required>
+
+            <label for="location">Страна и город проживания:</label>
+            <input type="text" id="location" name="location" placeholder="Где вы находитесь?" required>
+
+            <label for="nationality">Национальность или культурная идентичность:</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Опишите ваши корни или взгляды.">
+
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="age" placeholder="Сколько вам лет?" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Характеристики и личные предпочтения</legend>
+            <label for="occupation">Ваш род деятельности:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Профессия, хобби или учёба.">
+
+            <label for="interests">Ключевые интересы:</label>
+            <textarea id="interests" name="interests" placeholder="Какие темы или активности вам интересны?"></textarea>
+
+            <label for="strengths">Ваши самые сильные стороны:</label>
+            <textarea id="strengths" name="strengths" placeholder="Опишите три ваших главных достоинства."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Общение и стиль</legend>
+            <label for="tone">Тон общения:</label>
+            <select id="tone" name="tone">
+                <option value="friendly">Дружелюбно</option>
+                <option value="humorous">С юмором</option>
+                <option value="serious">Серьёзно</option>
+                <option value="professional">Профессионально</option>
+            </select>
+
+            <label for="language">Предпочтительный язык общения:</label>
+            <input type="text" id="language" name="language" placeholder="Например, русский, английский.">
+
+            <label for="message_format">Формат общения:</label>
+            <select id="message_format" name="message_format">
+                <option value="short">Лаконичные сообщения</option>
+                <option value="detailed">Развёрнутые объяснения</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>4. Цели и ожидания</legend>
+            <label for="goal">Какая цель вашего общения на платформе?</label>
+            <input type="text" id="goal" name="goal" placeholder="Например, найти друга или партнёра.">
+
+            <label for="meeting_format">Какой формат первых встреч вам комфортен?</label>
+            <textarea id="meeting_format" name="meeting_format" placeholder="Кофе, прогулка, ужин и т.д."></textarea>
+
+            <label for="impressions">Что вас впечатляет в людях?</label>
+            <textarea id="impressions" name="impressions" placeholder="Ум, уверенность, чувство юмора и т.д."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>5. Персональные предпочтения</legend>
+            <label for="qualities">Какие качества вы ищете в собеседнике?</label>
+            <textarea id="qualities" name="qualities" placeholder="Возраст, интересы, стиль общения."></textarea>
+
+            <label for="favorite_places">Ваши любимые места в вашем городе:</label>
+            <textarea id="favorite_places" name="favorite_places" placeholder="Кафе, парки, культурные центры."></textarea>
+
+            <label for="initiative">Как вы хотите, чтобы партнёр проявлял инициативу?</label>
+            <textarea id="initiative" name="initiative" placeholder="Например, выбор места встречи."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>6. Особенности</legend>
+            <label for="avoid_topics">Темы, которые вы предпочитаете избегать:</label>
+            <textarea id="avoid_topics" name="avoid_topics" placeholder="Политика, религия и т.д."></textarea>
+
+            <label for="best_moments">Ваши лучшие моменты из жизни:</label>
+            <textarea id="best_moments" name="best_moments" placeholder="Достижения, поездки и т.д."></textarea>
+
+            <label for="cultural_preferences">Ваши культурные предпочтения:</label>
+            <textarea id="cultural_preferences" name="cultural_preferences" placeholder="Любимые фильмы, книги, музыка."></textarea>
+        </fieldset>
+
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

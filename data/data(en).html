@@ -1,0 +1,165 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backdates.wtf Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        fieldset {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 80px;
+        }
+        button {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003f8a;
+        }
+    </style>
+</head>
+<body>
+    <h1>Backdates.wtf Questionnaire (your responses will help personalize your experience; note that data will be public)</h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>1. Basic Information</legend>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="How would you like to be addressed?" required>
+
+            <label for="location">Country and City:</label>
+            <input type="text" id="location" name="location" placeholder="Where are you located?" required>
+
+            <label for="nationality">Nationality or Cultural Identity:</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Describe your roots or perspectives.">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="How old are you?" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Characteristics and Personal Preferences</legend>
+            <label for="occupation">Your Occupation:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Your job, hobbies, or studies.">
+
+            <label for="interests">Key Interests:</label>
+            <textarea id="interests" name="interests" placeholder="What topics or activities interest you?"></textarea>
+
+            <label for="strengths">Your Strongest Qualities:</label>
+            <textarea id="strengths" name="strengths" placeholder="Describe your top three strengths."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Communication Style</legend>
+            <label for="tone">Preferred Tone of Interaction:</label>
+            <select id="tone" name="tone">
+                <option value="friendly">Friendly</option>
+                <option value="humorous">Humorous</option>
+                <option value="serious">Serious</option>
+                <option value="professional">Professional</option>
+            </select>
+
+            <label for="language">Preferred Language:</label>
+            <input type="text" id="language" name="language" placeholder="e.g., English, Spanish.">
+
+            <label for="message_format">Preferred Message Format:</label>
+            <select id="message_format" name="message_format">
+                <option value="short">Concise</option>
+                <option value="detailed">Detailed</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>4. Goals and Expectations</legend>
+            <label for="goal">What is your goal on this platform?</label>
+            <input type="text" id="goal" name="goal" placeholder="e.g., finding a friend or partner.">
+
+            <label for="meeting_format">Preferred Meeting Format:</label>
+            <textarea id="meeting_format" name="meeting_format" placeholder="Coffee, walk, dinner, etc."></textarea>
+
+            <label for="impressions">What impresses you in people?</label>
+            <textarea id="impressions" name="impressions" placeholder="Intelligence, confidence, humor, etc."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>5. Personal Preferences</legend>
+            <label for="qualities">What qualities do you seek in a companion?</label>
+            <textarea id="qualities" name="qualities" placeholder="Age, interests, communication style."></textarea>
+
+            <label for="favorite_places">Your favorite spots in your city:</label>
+            <textarea id="favorite_places" name="favorite_places" placeholder="Cafes, parks, cultural centers."></textarea>
+
+            <label for="initiative">How do you prefer your partner to take the initiative?</label>
+            <textarea id="initiative" name="initiative" placeholder="e.g., choosing a meeting location."></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>6. Additional Details</legend>
+            <label for="avoid_topics">Topics you prefer to avoid:</label>
+            <textarea id="avoid_topics" name="avoid_topics" placeholder="Politics, religion, etc."></textarea>
+
+            <label for="best_moments">Your best life moments:</label>
+            <textarea id="best_moments" name="best_moments" placeholder="Achievements, trips, etc."></textarea>
+
+            <label for="cultural_preferences">Your cultural preferences:</label>
+            <textarea id="cultural_preferences" name="cultural_preferences" placeholder="Favorite movies, books, music."></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+```

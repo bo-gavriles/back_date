@@ -4,19 +4,20 @@ body {
     color: #f8f8f2;
     font-family: 'Fira Code', monospace;
     margin: 0;
-    padding: 0;
+    padding: 0 15px;  /* Добавляем отступы с лева и справа для body */
     line-height: 1.6;
 }
 
 /* Контейнер для основного контента */
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     background: linear-gradient(135deg, #2e2e3e, #1e1e2f);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; /* Чтобы padding не выходил за пределы контейнера */
 }
 
 /* Заголовки */

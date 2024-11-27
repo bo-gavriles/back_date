@@ -58,18 +58,32 @@ button, .button {
     padding: 12px 20px;
     margin-top: 20px;
     font-size: 1rem;
-    color: #1e1e2f;
-    background: linear-gradient(135deg, #50fa7b, #8be9fd);
+    color: #fff;
+    background: linear-gradient(135deg, #ff007f, #ff7f00, #80ff00, #00ff7f, #007fff, #7f00ff);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
+    background-size: 400% 400%;
+    animation: gradientAnimation 3s ease infinite;
 }
 button:hover, .button:hover {
-    background: linear-gradient(135deg, #8be9fd, #50fa7b);
     transform: translateY(-2px);
 }
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 /* Разделители */
 hr {

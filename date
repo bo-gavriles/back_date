@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEQZCD0TJ4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GEQZCD0TJ4');
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BackDates.wtf – The platform where you exchange tokens for dates. Transparent, innovative, and governed by the community.">
+    <title>$DATE Tokenomics – Back.Dates.wtf</title>
+</head>
+<body>
+    <header>
+        <h2>Back.Dates.wtf – $DATE Tokenomics</h2>
+        <p>Join the revolution with our tokenized dating platform on the KASPA blockchain!</p>
+    </header>
+    <main>
+        <h2>Introducing the $DATE Token</h2>
+        <p><strong>$DATE</strong> is the native token of the Back.Dates.wtf platform, designed to create a seamless exchange for arranging dates, meetings, and connections in the modern world.</p>
+        <hr>
+
+        <h2>🪙 $DATE Tokenomics Overview</h2>
+        <p>The tokenomics of $DATE ensures both sustainability and growth. Here is how it’s structured:</p>
+
+        <h3>Total Supply:</h3>
+        <p><strong>20,000,000 $DATE Tokens</strong></p>
+        <p><strong>Blockchain:</strong> KASPA</p>
+
+        <h3>Token Distribution:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Distribution</th>
+                    <th>Percentage</th>
+                    <th>Tokens</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Initial Sale (Presale)</td>
+                    <td>30%</td>
+                    <td>6,000,000</td>
+                    <td>Early supporters, angel investors, and presale participants</td>
+                </tr>
+                <tr>
+                    <td>Liquidity</td>
+                    <td>10%</td>
+                    <td>2,000,000</td>
+                    <td>Liquidity for decentralized exchanges (DEX) on KASPA</td>
+                </tr>
+                <tr>
+                    <td>DAO Treasury</td>
+                    <td>15%</td>
+                    <td>3,000,000</td>
+                    <td>Platform development, staking, rewards</td>
+                </tr>
+                <tr>
+                    <td>Ecosystem Growth</td>
+                    <td>10%</td>
+                    <td>2,000,000</td>
+                    <td>Partnerships, growth, and marketing initiatives</td>
+                </tr>
+                <tr>
+                    <td>Team</td>
+                    <td>10%</td>
+                    <td>2,000,000</td>
+                    <td>For founders and early team members (vesting over 2 years)</td>
+                </tr>
+                <tr>
+                    <td>Advisors</td>
+                    <td>5%</td>
+                    <td>1,000,000</td>
+                    <td>Consultants and development support</td>
+                </tr>
+                <tr>
+                    <td>Community Rewards</td>
+                    <td>10%</td>
+                    <td>2,000,000</td>
+                    <td>Staking, rewards, airdrops, and user incentives</td>
+                </tr>
+                <tr>
+                    <td>Airdrop</td>
+                    <td>5%</td>
+                    <td>1,000,000</td>
+                    <td>For promotional purposes and community engagement</td>
+                </tr>
+                <tr>
+                    <td>Reserve for Staking</td>
+                    <td>5%</td>
+                    <td>1,000,000</td>
+                    <td>Staking rewards and liquidity incentives</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>💸 Token Sale Phases</h2>
+        <p>We are conducting a series of token sales with progressive price increments:</p>
+
+        <h3>Angel Investments (Angel Investment):</h3>
+        <ul>
+            <li><strong>Price per $DATE:</strong> $0.01</li>
+            <li><strong>Amount Raised:</strong> $25,000</li>
+            <li><strong>Tokens Sold:</strong> 500,000</li>
+            <li><strong>Purpose:</strong> Initial investment round</li>
+        </ul>
+
+        <h3>Private Sale:</h3>
+        <ul>
+            <li><strong>Price per $DATE:</strong> $0.05</li>
+            <li><strong>Amount Raised:</strong> $100,000</li>
+            <li><strong>Tokens Sold:</strong> 2,000,000</li>
+            <li><strong>Purpose:</strong> Early investors and strategic partners</li>
+        </ul>
+
+        <h3>Public Sale I:</h3>
+        <ul>
+            <li><strong>Price per $DATE:</strong> $0.10</li>
+            <li><strong>Amount Raised:</strong> $200,000</li>
+            <li><strong>Tokens Sold:</strong> 2,000,000</li>
+            <li><strong>Purpose:</strong> Fundraising for continued development</li>
+        </ul>
+
+        <h3>Public Sale II:</h3>
+        <ul>
+            <li><strong>Price per $DATE:</strong> $0.25</li>
+            <li><strong>Amount Raised:</strong> $500,000</li>
+            <li><strong>Tokens Sold:</strong> 2,000,000</li>
+            <li><strong>Purpose:</strong> Expanding user base and scaling platform</li>
+        </ul>
+
+        <h3>Liquidity Mining & DEX Integration:</h3>
+        <ul>
+            <li><strong>Price per $DATE:</strong> Market-dependent</li>
+            <li><strong>Tokens Allocated:</strong> 2,000,000</li>
+            <li><strong>Purpose:</strong> Ensuring liquidity and DEX trading</li>
+        </ul>
+
+        <hr>
+
+        <h2>🔒 Emission Control and Price Regulation</h2>
+        <p>The $DATE token price will be regulated dynamically through smart contracts, ensuring both liquidity and price stability:</p>
+        <ul>
+            <li><strong>Regulation via Liquidity:</strong> Prices adjust based on supply and demand in liquidity pools.</li>
+            <li><strong>Liquidity Cycles:</strong> Token emission will ensure market growth while maintaining supply-demand equilibrium.</li>
+        </ul>
+
+        <h2>🔧 DAO Governance</h2>
+        <p>Token holders will participate in the governance of the platform through voting mechanisms, helping to shape the future of Back.Dates.wtf.</p>
+
+        <h2>🚀 Join the Revolution!</h2>
+        <p>Participate in our presale and become part of the Back.Dates.wtf community.</p>
+
+        <hr>
+
+        <footer>
+            <p>© 2025 BackDates.wtf. All rights reserved. 🖤 <a href="mailto:support@backdates.wtf">support@backdates.wtf</a></p>
+            <div class="footer-buttons">
+                <a href="trust(en).html" class="footer-button">Why trust us?</a>
+                <a href="terms(en).html" class="footer-button">Full service terms</a>
+            </div>
+        </footer>
+    </main>
+
+    <style>
+        .footer-buttons a {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .footer-buttons a:hover {
+            background-color: #555;
+        }
+    </style>
+
+</body>
+</html>

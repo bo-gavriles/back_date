@@ -196,13 +196,36 @@
         </section>
 
         <!-- Призыв к действию -->
+        <button class="glow-button px-8 py-4 text-lg font-black rounded-sm mb-4 tracking-widest" onclick="copyNumber(this)" data-number="+1234567890">
+  СКОПИРОВАТЬ НОМЕР +79923481791 СБП Яндекс банк
+</button>
+
+<script>
+function copyNumber(button) {
+  const phoneNumber = button.getAttribute('data-number');
+  
+  navigator.clipboard.writeText(phoneNumber)
+    .then(() => {
+      const originalText = button.textContent;
+      button.textContent = 'СКОПИРОВАНО!';
+      
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 2000);
+    })
+    .catch(err => {
+      console.error('Ошибка копирования: ', err);
+      alert('Не удалось скопировать номер');
+    });
+}
+</script>
         <section class="text-center fade-in">
 <button class="glow-button px-8 py-4 text-lg font-black rounded-sm mb-4 tracking-widest" onclick="copyNumber(this)" data-number="+79923481791">
   СКОПИРОВАТЬ НОМЕР
 </button>              
             <p class="text-xs text-gray-500 mb-6">
                                 +79923481791 СБП Яндкес банк, после перевода 
-                            <li><strong>Отправь чек или скрин перевода на вотсап или</strong><br>на почту: <a href="mailto:pay@backdates.wtf">pay@backdates.wtf</a></li>
+                            <li><strong>отправь чек или скрин на вотсап или</strong><br>на почту: <a href="mailto:pay@backdates.wtf">pay@backdates.wtf</a></li>
 
             </p>
             <div class="text-sm text-gray-300 leading-relaxed max-w-2xl mx-auto">
@@ -224,40 +247,8 @@
         </div>
     </footer>
 
-    <!-- Модальное окно для формы -->
-    <div class="fixed inset-0 bg-black/90 hidden items-center justify-center z-50" id="modal">
-        <div class="dark-border bg-black p-8 max-w-md w-full mx-4">
-            <h3 class="text-xl font-bold text-center mb-6 text-gray-400 uppercase tracking-widest">БРОНИРОВАНИЕ</h3>
-            <form class="space-y-4">
-                <input type="text" placeholder="ваше имя" 
-                       class="w-full p-3 bg-black dark-border text-white text-sm placeholder-gray-500 focus:outline-none focus:border-cyan-300">
-                <input type="tel" placeholder="телефон" 
-                       class="w-full p-3 bg-black dark-border text-white text-sm placeholder-gray-500 focus:outline-none focus:border-cyan-300">
-                <input type="email" placeholder="email" 
-                       class="w-full p-3 bg-black dark-border text-white text-sm placeholder-gray-500 focus:outline-none focus:border-cyan-300">
-                <button type="submit" class="glow-button w-full py-3 font-black text-sm tracking-widest">
-                    забронировать
-                </button>
-            </form>
-            <button class="w-full mt-4 py-2 dark-border text-gray-500 text-sm hover:text-cyan-300 transition-colors" 
-                    onclick="document.getElementById('modal').classList.add('hidden')">
-                отмена
-            </button>
-        </div>
-    </div>
-
     <script>
-        // Открытие модального окна
-        document.querySelector('.glow-button').addEventListener('click', function() {
-            document.getElementById('modal').classList.remove('hidden');
-        });
 
-        // Закрытие модального окна при клике вне его
-        document.getElementById('modal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                this.classList.add('hidden');
-            }
-        });
 
         // Плавное появление элементов при скролле
         const observerOptions = {

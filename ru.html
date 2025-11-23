@@ -2,15 +2,13 @@
 <html lang="ru">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GEQZCD0TJ4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GEQZCD0TJ4');
-</script>
-    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEQZCD0TJ4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GEQZCD0TJ4');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Знакомства проще, чем обычно.">
@@ -24,15 +22,29 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f9f9f9;
         }
         
         header {
             text-align: center;
             margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         
         h2 {
-            color: #000;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        main {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
         }
         
         ul, ol {
@@ -40,35 +52,47 @@
         }
         
         li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #3498db;
         }
         
         hr {
             border: 0;
-            height: 1px;
-            background: #ddd;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #3498db, transparent);
             margin: 30px 0;
         }
         
         pre {
-            background-color: #f5f5f5;
+            background-color: #2c3e50;
+            color: #ecf0f1;
             padding: 15px;
-            border-radius: 5px;
+            border-radius: 8px;
             overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            border-left: 4px solid #3498db;
         }
         
         a {
-            color: #0066cc;
+            color: #3498db;
             text-decoration: none;
+            transition: color 0.3s;
         }
         
         a:hover {
+            color: #2980b9;
             text-decoration: underline;
         }
         
         footer {
             text-align: center;
-            padding: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         
         .footer-buttons {
@@ -78,48 +102,65 @@
         .footer-button {
             display: inline-block;
             margin: 5px 10px;
-            padding: 10px 15px;
-            background-color: #f8f9fa;
-            border-radius: 5px;
-            color: #333;
+            padding: 12px 20px;
+            background-color: #34495e;
+            color: white;
+            border-radius: 6px;
+            transition: background-color 0.3s;
         }
         
         .footer-button:hover {
-            background-color: #e9ecef;
+            background-color: #2c3e50;
             text-decoration: none;
         }
         
+        .social-icons {
+            margin-top: 15px;
+        }
+        
         .social-icons a img {
-            margin: 0 5px;
+            margin: 0 8px;
             vertical-align: middle;
+            transition: transform 0.3s;
+        }
+        
+        .social-icons a:hover img {
+            transform: scale(1.1);
         }
         
         /* Стили для кнопок Telegram */
         .telegram-button {
             display: inline-block;
-            background-color: #0088cc;
+            background: linear-gradient(135deg, #0088cc, #0077b3);
             color: white;
             text-decoration: none;
             font-weight: bold;
             font-size: 18px;
-            padding: 15px 30px;
+            padding: 16px 35px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3);
             transition: all 0.3s ease;
             text-align: center;
             margin: 20px 0;
+            border: none;
+            cursor: pointer;
         }
         
         .telegram-button:hover {
-            background-color: #0077b3;
+            background: linear-gradient(135deg, #0077b3, #006699);
             transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
             text-decoration: none;
             color: white;
         }
         
         .button-container {
             text-align: center;
+            margin: 30px 0;
+        }
+        
+        strong {
+            color: #2c3e50;
         }
     </style>
 </head>
@@ -134,6 +175,7 @@
             </a>
         </div>
     </header>
+    
     <main>
         <p>Используя BackDates.wtf вы покупаете время, которое потратили бы на бесконечные переписки и свайпы. От вас – календарь и анкета, от нас – организация Dates 😉 
         <hr>
@@ -186,20 +228,21 @@ pay@backdates.wtf
             </a>
         </div>
     </main>
-<footer>
-    <p>© 2024 BackDates.wtf. Все права защищены. 🖤 <a href="mailto:support@backdates.wtf">support@backdates.wtf</a></p>
-    <div class="footer-buttons">
-        <a href="trust(ru).html" class="footer-button">Почему нам можно доверять?</a>
-        <a href="toy(ru).html" class="footer-button">Полные условия работы сервиса!</a>
-    </div>
-    <div class="social-icons">
-        <a href="https://x.com/back_dates" target="_blank">
-            <img src="x-icon.png" alt="X" width="24" height="24">
-        </a>
-        <a href="https://t.me/back_dates" target="_blank">
-            <img src="tg-icon.png" alt="Telegram" width="24" height="24">
-        </a>
-    </div>
-</footer>
+    
+    <footer>
+        <p>© 2024 BackDates.wtf. Все права защищены. 🖤 <a href="mailto:support@backdates.wtf">support@backdates.wtf</a></p>
+        <div class="footer-buttons">
+            <a href="trust(ru).html" class="footer-button">Почему нам можно доверять?</a>
+            <a href="toy(ru).html" class="footer-button">Полные условия работы сервиса!</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://x.com/back_dates" target="_blank">
+                <img src="x-icon.png" alt="X" width="24" height="24">
+            </a>
+            <a href="https://t.me/back_dates" target="_blank">
+                <img src="tg-icon.png" alt="Telegram" width="24" height="24">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
